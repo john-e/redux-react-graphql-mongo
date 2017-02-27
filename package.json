@@ -1,0 +1,47 @@
+{
+  "name": "task-prod-list",
+  "version": "1.0.0",
+  "description": "Task for prod list with GraphQL and React+Redux",
+  "main": "app.js",
+  "repository": {},
+  "author": "Engit Prabhat",
+  "license": "MIT",
+  "scripts" : {
+    "serve": "gulp release && node app.js"
+  },
+  "dependencies": {
+    "apollo-client": "^0.9.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "form-serialize": "^0.7.1",
+    "graphql": "^0.9.1",
+    "graphql-server-express": "^0.6.0",
+    "graphql-tag": "^1.2.4",
+    "graphql-tools": "^0.10.0",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.5",
+    "node-loader": "^0.6.0",
+    "opn": "^4.0.2",
+    "react": "^15.4.2",
+    "react-apollo": "^0.12.0",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.8",
+    "webpack": "^2.2.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
